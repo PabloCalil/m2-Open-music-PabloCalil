@@ -1,1 +1,33 @@
-/* estilizacao price-range */
+.price-range__section {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  gap: 20px;
+}
+
+.price-range {
+  display: flex;
+  justify-content: space-between;
+}
+
+#customRange {
+  -webkit-appearance: none;
+  appearance: none;
+  background: transparent;
+  cursor: pointer;
+  width: 100%;
+  outline: none;
+  background-color: var(--color-brand-1);
+  border-radius: 0.5rem;
+  height: 0.5rem;
+}
+
+#customRange::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    height: 30px;
+    width: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 0.5rem solid var(--color-brand-1);
+  }
