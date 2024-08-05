@@ -1,8 +1,15 @@
-.price-range__section {
+.price-range__section{
+  display: flex;
+  justify-content: center;
+}
+
+.price-range__content {
   display: flex;
   flex-direction: column;
   height: 200px;
   gap: 20px;
+  max-width: 1024px;
+  width: 90%;
 }
 
 .price-range {

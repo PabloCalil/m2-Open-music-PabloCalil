@@ -1,11 +1,17 @@
 .header__container{
     display: flex;
+    justify-content: center;
+}
+
+.header__content{
+    display: flex;
     justify-content: space-between;
     align-items: center;
     border-bottom: 3px solid var(--color-brand-2);
     color: var(--color-gray-2);
     background-color: var(--color-gray-8);
-    width: 1024px;
+    max-width: 1024px;
+    width: 90%;
     height: 144px;
     position: fixed;
     z-index: 1000;

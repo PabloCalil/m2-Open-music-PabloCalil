@@ -1,10 +1,16 @@
 .genrer__section{
+    display: flex;
+    justify-content: center;
+}
+
+.genrer__content{
     margin-top: 160px;
     height: 180px;
     display: flex;
     flex-direction: column;
     gap: 14px;
-    width: 100%;
+    max-width: 1024px;
+    width: 90%;
 }
 
 .genrer--title{

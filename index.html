@@ -13,13 +13,16 @@
   </head>
   <body>
     <header class="header__container">
+      <div class="header__content">
       <h1 class="header--title"><span>O</span>pen <span>M</span>usic</h1>
       <button class="header-button">
         <img src="./src/assets/icons/moon-icon.svg" alt="moon-icon" />
       </button>
+    </div>
     </header>
     <main>
       <section class="genrer__section">
+        <div class="genrer__content">
         <h2 class="genrer--title">Gênero musical</h2>
         <div class="genrer--buttons">
           <button class="genrer-button">Todos</button>
@@ -31,21 +34,23 @@
           <button class="genrer-button">Rap</button>
           <button class="genrer-button">Hip-Hop</button>
         </div>
+      </div>
       </section>
-
-      <!-- SEÇÃO DE FILTRO POR PREÇO -->
       <section class="price-range__section">
+        <div class="price-range__content">
         <div class="price-range">
           <h2 class="price-range--title title1">Definir preço</h2>
           <h2 class="price-range--title title1">Até <span>R$ 100</span></h2>
         </div>
         <div class="price--slider">
-          <input type="range" id="customRange" min="0" max="100" value="50" />
+          <input  class="input-range" type="range" id="customRange" min="0" max="100" value="100" />
         </div>
+      </div>
       </section>
 
       <!-- SEÇÃO DE ALBUNS -->
       <section class="albuns__section">
+        <div class="albuns__content">
         <h2 class="albuns--title title1">Albuns Encontrados</h2>
         <div class="albuns__container">
           <div class="albuns">
@@ -122,7 +127,9 @@
               </div>
             </div>
         </div>
+      </div>
       </section>
     </main>
   </body>
+  <script type="module" src="src/scripts/index.js"></script>
 </html>

@@ -43,19 +43,12 @@
   --color-white-fixed: #ffffff;
 }
 
-html{
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
-}
-
 body{
   font-family: "inter", sans-serif;
   font-style:  normal;
   background-color: var(--color-gray-8);
-  width: 1024px;
-  height: 1600px;
+  width: 100%;
+  height: 100%;
 }
 
 .title1{
