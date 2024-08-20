@@ -14,7 +14,7 @@
 .albuns__container{
     display: flex;
     flex-wrap: wrap;
-    gap: 50px;
+    gap: 60px;
     width: 100%;
 }
 
@@ -74,6 +74,7 @@ h6{
     font-weight: 600;
     line-height: 23.24px;
     font-family: "inter", sans-serif;
+    color: var(--color-gray-0);
 }
 
 .buy--button{

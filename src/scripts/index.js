@@ -1,5 +1,6 @@
 import { applyInputRangeStyle } from "./inputRange.js";
 import {albumList} from "./albunsDataBase.js"
+import { toggleTheme, getInitialTheme, setTheme } from "./theme.js";
 
 function routine() {
     applyInputRangeStyle(); 
@@ -65,4 +66,3 @@ function removeHtmlAlbuns(){
         album.remove(); 
     })
 }
-

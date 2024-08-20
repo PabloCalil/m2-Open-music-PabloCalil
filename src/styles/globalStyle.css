@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Nunito:wght@600&display=swap");
 
-:root {
+body {
   --color-brand-1:#6F00FF;
   --color-brand-2:#8629ff;
   --color-gray-0: #15171a;
@@ -25,7 +25,7 @@
   --radius-1: 0.25rem;
 }
 
-.dark__mode:root {
+body.dark__mode {
   --color-brand-1: #9747ff;
   --color-gray-9: #15171a;
   --color-gray-8: #212529;
@@ -56,4 +56,9 @@ body{
   font-weight: 600;
   line-height: 29.05px;
   font-family: "inter", sans-serif;
+  color: var(--color-gray-0);
+}
+
+body.dark__mode:root{
+  background-color: var(--color-gray-1);
 }

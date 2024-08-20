@@ -22,7 +22,7 @@
   appearance: none;
   background: transparent;
   cursor: pointer;
-  width: 100%;
+  width: 99%;
   outline: none;
   background-color: var(--color-brand-1);
   border-radius: 0.5rem;
