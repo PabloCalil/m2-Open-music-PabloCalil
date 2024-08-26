@@ -20,7 +20,7 @@ const setTheme = (theme) => {
   } else {
     body.classList.remove("dark__mode");
     toggleThemeButton.innerHTML = `
-      <img src="/src/assets/icons/moon-icon.svg" alt="Dark mode icon">
+      <img src="/src/assets/icons/moon.svg" alt="Dark mode icon">
       <span class="night-button"></span>
     `;
   }
