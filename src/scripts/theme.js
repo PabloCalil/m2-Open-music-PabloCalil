@@ -14,13 +14,13 @@ const setTheme = (theme) => {
   if (theme != "dark") {
     body.classList.add("dark__mode");
     toggleThemeButton.innerHTML = `
-      <img src="/src/assets/icons/sun-icon.svg" alt="Light mode icon">
+      <img src="./src/assets/icons/sun-icon.svg" alt="Light mode icon">
       <span class="night-button"></span>
     `;
   } else {
     body.classList.remove("dark__mode");
     toggleThemeButton.innerHTML = `
-      <img src="/src/assets/icons/moon.svg" alt="Dark mode icon">
+      <img src="./src/assets/icons/moon.svg" alt="Dark mode icon">
       <span class="night-button"></span>
     `;
   }
